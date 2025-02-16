@@ -1,0 +1,83 @@
+
+/*let button_display=document.createElement("button");
+button_display.innerHTML="Display";
+button_display.onclick=function(){
+    let list=document.createElement("ul");
+    for(let i=0;i< impo.toDo.length;i++){
+        let list1=document.createElement("li");
+        list1.textContent=impo.toDo[i].task;
+        list.appendChild(list1);
+    }
+    div2.appendChild(list);
+}
+div2.appendChild(button_display);*/
+
+let button_deleteALL=document.createElement("button");
+button_deleteALL.innerHTML="Delete All Task";
+button_deleteALL.onclick=function(){
+    impo.deleteaAll();
+}
+div2.appendChild(button_deleteALL);
+/*let div_main=document.createElement("div")
+div_main.id="main-div";
+let div1=document.createElement("div");
+div1.id="div1";
+
+let div2=document.createElement("div");
+div2.id="div2";
+div_main.appendChild(div1);
+div_main.appendChild(div2);
+document.body.appendChild(div_main);
+
+let taskname=document.createElement("input");
+let taskstatus=document.createElement("input");
+let taskdate=document.createElement("input");
+
+let nameLabel1=document.createElement("p");
+div1.appendChild(nameLabel1);
+nameLabel1.textContent="Task Name:";
+div1.appendChild(taskname);
+div1.appendChild(document.createElement("br"));
+
+
+let nameLabel2=document.createElement("p");
+div1.appendChild(nameLabel2);
+nameLabel2.textContent="Task status:";
+div1.appendChild(taskstatus);
+div1.appendChild(document.createElement("br"));
+
+
+let nameLabel3=document.createElement("p");
+div1.appendChild(nameLabel3);
+nameLabel3.textContent="Task date:";
+div1.appendChild(taskdate);
+div1.appendChild(document.createElement("br"));
+
+
+let button=document.createElement("button");
+button.innerHTML="Add Task";
+button.onclick=function(){
+    impo.addTask(taskname.value,taskstatus.value,taskdate.value);
+    taskname.value="";
+    taskdate.value="";
+    taskstatus.value="";
+    console.log("Added task successfully");
+};
+div1.appendChild(button);
+div1.appendChild(document.createElement("br"));
+
+let button_display=document.createElement("button");
+button_display.innerHTML="Display";
+button_display.onclick=function(){
+    impo.displayTask();
+}
+div2.appendChild(button_display);
+
+let button_deleteALL=document.createElement("button");
+button_deleteALL.innerHTML="Delete All Task";
+button_deleteALL.onclick=function(){
+    impo.deleteaAll();
+}
+div2.appendChild(button_deleteALL);
+
+div1.appendChild(document.createElement("br"));*/

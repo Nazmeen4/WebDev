@@ -1,0 +1,12 @@
+Please find today's JavaScript assignment below:
+Develop a Form
+Use this form to create a Data object (For example a Book in Library, a Student in Class, etc..)
+Use this same form to update the Data object
+Handle validations
+Use Regular Expressions
+A unique identifier should be generated and
+This form should consists a textfield, radio button, checkbox, dropdown, date field, etc.
+Develop a table
+Populate the data created in via form in the table
+Integrate sort, pagination, search, filter
+Add interactions like delete and edit data object in the table

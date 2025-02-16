@@ -1,0 +1,16 @@
+Create an eCommerce website with the following functionality.
+Show all the products with appropriate details (title, description, images[0], rating, price after discount, etc)
+Implement search functionality for the products by title.
+Show the price after the discount percentage.
+Initially on rendering the page there should be no records
+When I click on the Fetch button, an API call should happen and the result should be rendered.
+For the first time only 10 objects should be rendered, when clicking on more the next 10 also should render
+------------------------------
+/*let response = fetch("https://dummyjson.com/products").then((data)=>{
+    return data.arrayBuffer();
+}).then((data)=>{
+    return (data)
+})
+//console.log(response)
+let arr=Array.from(response.products)*/
+---------------------------------

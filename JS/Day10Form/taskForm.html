@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action ="action.php" method="post" id ="form">
+        <h1> Student Information</h1>
+        Name: <input type="text" name="fName" id="fName">
+        RollNo: <input type="text" name="RollNo" id="RollNo">
+        Section: <select id="Section">
+            <option>CSE</option>
+            <option>IT</option>
+            <option>ECE</option>
+        </select>
+        Mail-Id: <input type="email" name="mail" id="mail">
+        <br>
+        <button type="button" onclick="submitButton()">Enter Data</button>
+        <br>
+        Search <input type="text" placeholder="Search for field" name="search" id="search">
+        <button type="button" onclick="searchTable()">Search</button>
+        <!--<button type="button" onclick="sortTable()" id="sort">sort</button> -->
+        <br>
+        <select id="SectionFilter">
+            <option>CSE</option>
+            <option>IT</option>
+            <option>ECE</option>
+            <option>None</option>
+        </select>
+        <button type="button" onclick="filterTable()">FilterSection</button>
+        <br>
+    </form>
+    <script src="./taskForm.js"></script>
+</body>
+</html>
