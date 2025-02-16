@@ -1,0 +1,90 @@
+.descriptionCard{
+    width:100%;
+    height:40px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    cursor:pointer;
+    /* display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;   */
+}
+.descriptionCard:hover{
+    height: auto; /* Allow full text on hover */
+    white-space: normal; /* Allow multiple lines */
+    background: rgba(0, 0, 0, 0.1); /* Light background for better visibility */
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out; /* Smooth effect */
+}
+#header{
+    height:40px;
+    display:flex;
+    background-color:pink;
+    align-items:center;
+    justify-content:end;
+    display:flex;
+    gap:20%;
+    padding:10px;
+}
+#btnCart{
+    border:none;
+    margin-right:18%;
+    margin-top:23%;
+    height:24.8px;
+    background-color:pink;
+    
+}
+#btnCart:hover{
+    cursor:pointer;
+}
+#addButton{
+    visibility: hidden;
+    /* display: none; */
+}
+#productCard:hover #addButton{
+    visibility: visible;
+    /* display:block; */
+}
+.descriptionCard{
+    width:89%;
+    height:40px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    cursor:pointer;
+    /* display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;   */
+}
+.cartDiv1{
+    //height:300px;
+    width:300px;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height:auto;
+    padding-bottom:10px;
+}
+.buttonAM{
+    border:none;
+    background-color:#4545bc45;
+}
+#divCalculation{
+    width:90px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.cartDiv1{
+    padding: 20px 0px;
+}
+.headShop{
+    font-size: 24px;
+}
+@media screen and (max-width:599px){
+    .headShop{
+        font-size: 16px;
+    }
+}

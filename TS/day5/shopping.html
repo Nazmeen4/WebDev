@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <a href="index.html">Back</a>
+    <div id="mainDiv">
+        <header id="header">
+            <h1 class="headShop">Shopping Cart</h1>
+            <div id="filterCategory">FilterBy  :
+                <select id="selectOption" onchange="filterCart()">
+                    <option value="all">All</option>
+                    <option value="beauty">Beauty</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="accessories">Accessory</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="electronics">Electronic</option>
+                </select>
+            </div>
+            <div id="cart">
+                <div>
+                    <button id="btnCart" onclick="cart()">
+                        <i style="font-size:24px" class="fa" id="cartIcon">&#xf07a;</i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div id="cardsDiv">
+        </div>
+    </div>
+    <script src="shopping.js"></script>
+</body>
+</html>

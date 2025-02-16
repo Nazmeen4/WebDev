@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <a href="index.html">Back</a>
+    <div class="main" id="main">
+        <div class="searchAndFilter">
+            <form>
+                <button  type="button"  class="addTask" onclick="createTask()">Add Task</button>
+            </form>
+            <div class="inputAndButton">
+                <input type="text" placeholder="Search the task" id="search">
+                <button type="button" onclick="searchTask()">Search</button>
+            </div>
+            <div>
+                <label>FilterBy</label>
+                <select id="filter" onchange="filterTask()">
+                    <option value="All">All</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Pending">Pending</option>
+                </select>
+            </div>
+        </div>
+        <div id="divMain">
+            
+        </div>
+    </div>
+    <script src="toDo.js"></script>
+</body>
+</html>
